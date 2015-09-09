@@ -45,7 +45,6 @@ Temporary Items
 #--------------------------------------------
 *.bak
 *.*_bak
-*.png
 
 # MPLAB X Directories
 000/PIC16F628A_Comparator_Module_000.X/build/
