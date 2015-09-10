@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:PIC16F628A_Comparator_Module_000-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -271,4 +272,6 @@ Wire Notes Line
 	2050 3150 750  3150
 Wire Notes Line
 	750  3150 750  1900
+Text GLabel 2500 2100 0    45   Input ~ 0
+VREF
 $EndSCHEMATC
