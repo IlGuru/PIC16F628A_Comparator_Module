@@ -113,7 +113,7 @@ void main(void) {
     
     while(1) {
 
-        for ( v_ref = 0; v_ref < 0b1111; v_ref++ ) {    
+        for ( v_ref = 0; v_ref < 16; v_ref++ ) {    
 
             //  Genero una rampa di 16 livelli di VRef
             VRCONbits.VR  = v_ref;
