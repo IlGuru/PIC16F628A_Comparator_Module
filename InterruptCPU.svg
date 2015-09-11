@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="InterruptCPU.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotM"
+       style="overflow:visible">
+      <path
+         id="path4245"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.4) translate(7.4, 1)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.6506211"
+     inkscape:cx="567.95605"
+     inkscape:cy="327.79002"
+     inkscape:document-units="px"
+     inkscape:current-layer="g2989"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-to-guides="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="838"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:snap-grids="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="160.03396,925.28975"
+       id="guide3787" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid3811"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <g
+       id="g2989"
+       style="fill:#000000">
+      <g
+         id="g3819"
+         transform="translate(0,320)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2987-7"
+           d="m 90.042151,202.93986 c 9.612601,-0.13334 18.892959,6.03089 22.541799,14.91605 3.80845,8.72461 1.83301,19.57493 -4.8563,26.36089 -4.95338,5.25824 -12.271644,7.96771 -19.447714,7.61155 -7.594901,0.0129 -15.189804,0.0257 -22.784707,0.0386 0,-16.33651 0,-32.67303 0,-49.00954 8.044626,0 16.089251,0 24.133876,0"
+           style="opacity:0.8;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99045831;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3813"
+           d="m 65,214.86218 -10,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3815"
+           d="m 65,239.86218 -10,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3817"
+           d="m 115,227.36218 10,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(0,380)"
+         style="fill:#000000"
+         id="g3819-4"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2987-7-0"
+           d="m 90.042151,202.93986 c 9.612601,-0.13334 18.892959,6.03089 22.541799,14.91605 3.80845,8.72461 1.83301,19.57493 -4.8563,26.36089 -4.95338,5.25824 -12.271644,7.96771 -19.447714,7.61155 -7.594901,0.0129 -15.189804,0.0257 -22.784707,0.0386 0,-16.33651 0,-32.67303 0,-49.00954 8.044626,0 16.089251,0 24.133876,0"
+           style="opacity:0.8;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99045831;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3813-9"
+           d="m 65,214.86218 -10,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3815-4"
+           d="m 65,239.86218 -10,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3817-8"
+           d="m 115,227.36218 10,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g3819-4"
+         id="use3855"
+         transform="translate(0,59.999997)"
+         width="744.09448"
+         height="1052.3622"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g3819-4"
+         id="use3859"
+         width="744.09448"
+         height="1052.3622"
+         transform="translate(0,180)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#use3855"
+         id="use3861"
+         width="744.09448"
+         height="1052.3622"
+         transform="translate(0,180)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <g
+         id="use3863"
+         style="fill:#000000"
+         transform="translate(0,679.99999)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999">
+        <path
+           style="opacity:0.8;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99045831;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+           d="m 90.042151,202.93986 c 9.612601,-0.13334 18.892959,6.03089 22.541799,14.91605 3.80845,8.72461 1.83301,19.57493 -4.8563,26.36089 -4.95338,5.25824 -12.271644,7.96771 -19.447714,7.61155 -7.594901,0.0129 -15.189804,0.0257 -22.784707,0.0386 0,-16.33651 0,-32.67303 0,-49.00954 8.044626,0 16.089251,0 24.133876,0"
+           id="path3979"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 65,214.86218 -10,0"
+           id="path3981"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 65,239.86218 -10,0"
+           id="path3983"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 115,227.36218 10,0"
+           id="path3985"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g3897"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999">
+        <path
+           style="opacity:0.8;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           d="m 275.12646,654.09535 c 28.83781,-0.40002 56.67886,18.09271 67.6254,44.74815 11.42532,26.17383 5.49901,58.72478 -14.56893,79.08266 -14.86017,15.77471 -36.81493,23.90312 -58.34314,22.83464 -22.78469,0.0387 -45.56939,0.077 -68.35411,0.1157 18.39106,-23.85815 31.22565,-53.98572 27.52625,-84.602 -2.52701,-23.0308 -13.47337,-44.32259 -27.52625,-62.42663 24.13389,0 48.26777,0 72.40164,0"
+           id="path3869"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3871"
+           d="m 230,727.36218 -40,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path3873"
+           d="m 228,712.36218 -38,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3875"
+           d="m 225,697.36218 -35,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3877"
+           d="m 219,682.36218 -29,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3879"
+           d="m 228,742.36218 -38,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3881"
+           d="m 225,757.36218 -35,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3883"
+           d="m 219,772.36218 -29,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3885"
+           d="m 349,727.36218 21,0"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g3819"
+         id="use3887"
+         transform="translate(375.5,12.499997)"
+         width="744.09448"
+         height="1052.3622"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g3819-4"
+         id="use3889"
+         transform="translate(375.5,12.499997)"
+         width="744.09448"
+         height="1052.3622"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#use3855"
+         id="use3891"
+         transform="translate(375.5,12.499997)"
+         width="744.09448"
+         height="1052.3622"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <g
+         id="use3893"
+         style="fill:#ff9900;fill-opacity:1"
+         transform="translate(375.5,512.49999)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999">
+        <path
+           style="opacity:0.80000000000000004;fill:#ff9900;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99045830999999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+           d="m 90.042151,202.93986 c 9.612601,-0.13334 18.892959,6.03089 22.541799,14.91605 3.80845,8.72461 1.83301,19.57493 -4.8563,26.36089 -4.95338,5.25824 -12.271644,7.96771 -19.447714,7.61155 -7.594901,0.0129 -15.189804,0.0257 -22.784707,0.0386 0,-16.33651 0,-32.67303 0,-49.00954 8.044626,0 16.089251,0 24.133876,0"
+           id="path3989"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ff9900;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+           d="m 65,214.86218 -10,0"
+           id="path3991"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ff9900;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+           d="m 65,239.86218 -10,0"
+           id="path3993"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ff9900;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+           d="m 115,227.36218 10,0"
+           id="path3995"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g3908"
+         transform="translate(370,-77.509318)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999">
+        <path
+           inkscape:connector-curvature="0"
+           id="path3910"
+           d="m 275.12646,654.09535 c 28.83781,-0.40002 56.67886,18.09271 67.6254,44.74815 11.42532,26.17383 5.49901,58.72478 -14.56893,79.08266 -14.86017,15.77471 -36.81493,23.90312 -58.34314,22.83464 -22.78469,0.0387 -45.56939,0.077 -68.35411,0.1157 18.39106,-23.85815 31.22565,-53.98572 27.52625,-84.602 -2.52701,-23.0308 -13.47337,-44.32259 -27.52625,-62.42663 24.13389,0 48.26777,0 72.40164,0"
+           style="opacity:0.8;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 228,712.36218 -38,0"
+           id="path3914"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 219,682.36218 -29,0"
+           id="path3918"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 228,742.36218 -38,0"
+           id="path3920"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 219,772.36218 -29,0"
+           id="path3924"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 349,727.36218 21,0"
+           id="path3926"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="13.71875"
+         y="532.36218"
+         id="text3935"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           sodipodi:role="line"
+           id="tspan3937"
+           x="13.71875"
+           y="532.36218"
+           style="font-size:12px">TMR1IF</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3939"
+         y="557.36218"
+         x="13.71875"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           style="font-size:12px"
+           y="557.36218"
+           x="13.71875"
+           id="tspan3941"
+           sodipodi:role="line">TMR1IE</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3951"
+         y="592.36218"
+         x="13.71875"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           style="font-size:12px"
+           y="592.36218"
+           x="13.71875"
+           id="tspan3953"
+           sodipodi:role="line">TMR2IF</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="13.71875"
+         y="617.36218"
+         id="text3955"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           sodipodi:role="line"
+           id="tspan3957"
+           x="13.71875"
+           y="617.36218"
+           style="font-size:12px">TMR2IE</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3959"
+         y="652.36218"
+         x="13.71875"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           style="font-size:12px"
+           y="652.36218"
+           x="13.71875"
+           id="tspan3961"
+           sodipodi:role="line">CCP1IF</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="13.71875"
+         y="677.36218"
+         id="text3963"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           sodipodi:role="line"
+           id="tspan3965"
+           x="13.71875"
+           y="677.36218"
+           style="font-size:12px">CCP1IE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="13.71875"
+         y="712.36218"
+         id="text3967"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           sodipodi:role="line"
+           id="tspan3969"
+           x="13.71875"
+           y="712.36218"
+           style="font-size:12px">CMIF</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3971"
+         y="737.36218"
+         x="13.71875"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           style="font-size:12px"
+           y="737.36218"
+           x="13.71875"
+           id="tspan3973"
+           sodipodi:role="line">CMIE</tspan></text>
+      <g
+         transform="translate(0,500)"
+         id="g3997"
+         style="fill:#ff9900;fill-opacity:1"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999">
+        <path
+           style="opacity:0.80000000000000004;fill:#ff9900;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99045830999999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+           d="m 90.042151,202.93986 c 9.612601,-0.13334 18.892959,6.03089 22.541799,14.91605 3.80845,8.72461 1.83301,19.57493 -4.8563,26.36089 -4.95338,5.25824 -12.271644,7.96771 -19.447714,7.61155 -7.594901,0.0129 -15.189804,0.0257 -22.784707,0.0386 0,-16.33651 0,-32.67303 0,-49.00954 8.044626,0 16.089251,0 24.133876,0"
+           id="path3999"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ff9900;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+           d="m 65,214.86218 -10,0"
+           id="path4001"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ff9900;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+           d="m 65,239.86218 -10,0"
+           id="path4003"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ff9900;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+           d="m 115,227.36218 10,0"
+           id="path4005"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="13.71875"
+         y="772.36218"
+         id="text4007"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           sodipodi:role="line"
+           id="tspan4009"
+           x="13.71875"
+           y="772.36218"
+           style="font-size:12px">TXIF</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4011"
+         y="797.36218"
+         x="13.71875"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           style="font-size:12px"
+           y="797.36218"
+           x="13.71875"
+           id="tspan4013"
+           sodipodi:role="line">TXIE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="13.71875"
+         y="832.36218"
+         id="text4015"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           sodipodi:role="line"
+           id="tspan4017"
+           x="13.71875"
+           y="832.36218"
+           style="font-size:12px">RCIF</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4019"
+         y="857.36218"
+         x="13.71875"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           style="font-size:12px"
+           y="857.36218"
+           x="13.71875"
+           id="tspan4021"
+           sodipodi:role="line">RCIE</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4023"
+         y="892.36218"
+         x="13.71875"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           style="font-size:12px"
+           y="892.36218"
+           x="13.71875"
+           id="tspan4025"
+           sodipodi:role="line">EEIF</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="13.71875"
+         y="917.36218"
+         id="text4027"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           sodipodi:role="line"
+           id="tspan4029"
+           x="13.71875"
+           y="917.36218"
+           style="font-size:12px">EEIE</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4031"
+         y="544.21362"
+         x="389.71875"
+         style="font-size:4.00004053px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           style="font-size:12.00012207px"
+           y="544.21362"
+           x="389.71875"
+           id="tspan4033"
+           sodipodi:role="line">T0IF</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.00004053px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="389.71875"
+         y="569.21387"
+         id="text4035"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           sodipodi:role="line"
+           id="tspan4037"
+           x="389.71875"
+           y="569.21387"
+           style="font-size:12.00012207px">T0IE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.00004053px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="389.71875"
+         y="604.21423"
+         id="text4039"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           sodipodi:role="line"
+           id="tspan4041"
+           x="389.71875"
+           y="604.21423"
+           style="font-size:12.00012207px">INTF</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4043"
+         y="629.21448"
+         x="389.71875"
+         style="font-size:4.00004053px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           style="font-size:12.00012207px"
+           y="629.21448"
+           x="389.71875"
+           id="tspan4045"
+           sodipodi:role="line">INTE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.00004053px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="389.71875"
+         y="664.21484"
+         id="text4047"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           sodipodi:role="line"
+           id="tspan4049"
+           x="389.71875"
+           y="664.21484"
+           style="font-size:12.00012207px">RBIF</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4051"
+         y="689.21509"
+         x="389.71875"
+         style="font-size:4.00004053px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           style="font-size:12.00012207px"
+           y="689.21509"
+           x="389.71875"
+           id="tspan4053"
+           sodipodi:role="line">RBIE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.00004053px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="389.71875"
+         y="749.2157"
+         id="text4059"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           sodipodi:role="line"
+           id="tspan4061"
+           x="389.71875"
+           y="749.2157"
+           style="font-size:12.00012207px">PEIE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.9769001px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="749.06207"
+         y="772.36218"
+         id="text4063"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           sodipodi:role="line"
+           id="tspan4065"
+           x="749.06207"
+           y="772.36218"
+           style="font-size:12px">GIE</tspan></text>
+      <g
+         transform="translate(745.5,435)"
+         style="fill:#ff9900;fill-opacity:1"
+         id="g4067"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4069"
+           d="m 90.042151,202.93986 c 9.612601,-0.13334 18.892959,6.03089 22.541799,14.91605 3.80845,8.72461 1.83301,19.57493 -4.8563,26.36089 -4.95338,5.25824 -12.271644,7.96771 -19.447714,7.61155 -7.594901,0.0129 -15.189804,0.0257 -22.784707,0.0386 0,-16.33651 0,-32.67303 0,-49.00954 8.044626,0 16.089251,0 24.133876,0"
+           style="opacity:0.8;fill:#ff9900;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99045831;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4071"
+           d="m 65,214.86218 -10,0"
+           style="fill:#ff9900;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4073"
+           d="m 65,239.86218 -10,0"
+           style="fill:#ff9900;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4075"
+           d="m 115,227.36218 10,0"
+           style="fill:#ff9900;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="874.93323"
+         y="349.08731"
+         id="text4077"
+         sodipodi:linespacing="125%"
+         transform="translate(0,308.2677)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           sodipodi:role="line"
+           id="tspan4079"
+           x="874.93323"
+           y="349.08731"
+           style="font-size:12px">INTERRUPT CPU</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="799.89813"
+         y="602.0722"
+         id="text4081"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><tspan
+           sodipodi:role="line"
+           id="tspan4083"
+           x="799.89813"
+           y="602.0722"
+           style="font-size:12px">WAKEUP SLEEP MODE</tspan></text>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4087"
+         style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Arial;font-style:normal;font-weight:normal;font-size:4px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999"><flowRegion
+           id="flowRegion4089"><rect
+             id="rect4091"
+             width="159.21886"
+             height="88.032265"
+             x="30.974316"
+             y="87.112953" /></flowRegion><flowPara
+           id="flowPara4093"></flowPara></flowRoot>      <path
+         style="fill:none;stroke:#000000;stroke-width:0.92260283px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline"
+         d="m 124.9613,547.32348 55.29604,0 0,135.0774"
+         id="path4099"
+         inkscape:connector-type="orthogonal"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:4.93625259px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 178.31671,617.36218 0,0"
+         id="path4101"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 180,374.09448 10,0"
+         id="path4103"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         transform="translate(0,308.2677)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 125,299.09448 40,0 0,90"
+         id="path4105"
+         inkscape:connector-type="orthogonal"
+         inkscape:connector-curvature="0"
+         transform="translate(0,308.2677)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 190,389.09448 -25,0"
+         id="path4107"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         transform="translate(0,308.2677)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 125,359.09448 25,0 0,45"
+         id="path4109"
+         inkscape:connector-type="orthogonal"
+         inkscape:connector-curvature="0"
+         transform="translate(0,308.2677)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 190,404.09448 -40,0"
+         id="path4111"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         transform="translate(0,308.2677)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 125,419.09448 65,0"
+         id="path4113"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         transform="translate(0,308.2677)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 125,599.09448 55,0 0,-135"
+         id="path4115"
+         inkscape:connector-type="orthogonal"
+         inkscape:connector-curvature="0"
+         transform="translate(0,308.2677)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 190,464.09448 -10,0"
+         id="path4117"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         transform="translate(0,308.2677)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 125,539.09448 40,0 0,-90"
+         id="path4119"
+         inkscape:connector-type="orthogonal"
+         inkscape:connector-curvature="0"
+         transform="translate(0,308.2677)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 190,449.09448 -25,0"
+         id="path4121"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         transform="translate(0,308.2677)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 125,479.09448 25,0 0,-45"
+         id="path4123"
+         inkscape:connector-type="orthogonal"
+         inkscape:connector-curvature="0"
+         transform="translate(0,308.2677)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 190,434.09448 -40,0"
+         id="path4125"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         transform="translate(0,308.2677)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 500,559.91582 39.66886,0 0,45.64636"
+         id="path4129"
+         inkscape:connector-type="orthogonal"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 560.04669,604.86218 -21.19295,0"
+         id="path4131"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="orthogonal"
+         id="path4145"
+         d="m 499.8684,739.86518 39.46505,0 0,-44.69537"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="polyline"
+         id="path4147"
+         d="m 559.98301,694.89808 -20.71746,0.0679"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 500,619.86218 20,0 0,15"
+         id="path4151"
+         inkscape:connector-type="orthogonal"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 560,634.86218 -40,0"
+         id="path4153"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="orthogonal"
+         id="path4155"
+         d="m 500,679.86218 20,0 0,-15"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="polyline"
+         id="path4157"
+         d="m 560,664.86218 -40,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 370,419.09448 60,0"
+         id="path4159"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         transform="translate(0,308.2677)"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 740,649.86218 61,0"
+         id="path4161"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 750,759.86218 35,0 0,-85"
+         id="path4163"
+         inkscape:connector-type="orthogonal"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.12968063px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 804.28077,674.86218 -19.14268,0"
+         id="path4165"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;marker-start:url(#DotM)"
+         d="m 785,649.77218 0,-45"
+         id="path4173"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 870,604.77218 -85,0"
+         id="path4175"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="F:\Elettronica\PIC16F628A_Comparator_Module\InterruptCPU.png"
+         inkscape:export-xdpi="42.299999"
+         inkscape:export-ydpi="42.299999" />
+    </g>
+  </g>
+</svg>
