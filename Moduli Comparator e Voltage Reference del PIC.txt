@@ -1,0 +1,308 @@
+In questo articolo si parla dei moduli Comparator e Voltage Reference del PIC16F628A e viene descritto un esempio in cui i due moduli lavorano insieme.
+==Fonte delle informazioni==
+
+La fonte delle informazioni citate in questo articolo, sono i capitoli 10 ed 11 del datasheet  [http://ww1.microchip.com/downloads/en/DeviceDoc/40044F.pdf PIC16F628A]:
+* 10.0 COMPARATOR MODULE
+* 11.0 VOLTAGE REFERENCE MODULE
+
+==Il Comparator Module==
+
+{|
+|-
+| 
+<immagine id=14763 name='ComparatorModule_000.png'>ComparatorModule_000.png</immagine>
+|| 
+Questo modulo è composto da due comparatori interni programmabili i cui contatti di ingresso e uscita fanno capo ai pin
+* RA0/AN0
+* RA1/AN1
+* RA2/AN2/VRE
+* RA3/AN3/CMP1
+* RA4/T0CKI/CMP2
+
+Il modulo è gestito dal registro CMCON
+{|
+|-
+! bit7 !! bit6 !! bit5 !! bit4 !! bit3 !! bit2 !! bit1 !! bit0
+|-
+| C2OUT || C1OUT || C2INV || C1INV || CIS || CM2 || CM1 || CM0
+|}
+|}
+
+* CM: Seleziona la configurazione dei due comparatori ed il loro modo di utilizzo.
+* CIS: Comparator Input Switch. Seleziona il modo in cui gli ingressi invertenti dei comparatori vengono collegati ai pin analogici del PIC, nei casi in cui CM vale 001 (3 ingressi condivisi con 2 comparatori) o 010 (4 ingressi condivisi con 2 comparatori).
+* C1INV e C2INV: Se impostati ad 1 invertono il livello logico del relativo comparatore.
+* C1OUT e C2OUT: Contengono il livello logico di uscita dei comparatori. Il loro valore può essere invertito dalle impostazioni di C1INV e C2INV. Sono bit di sola lettura.
+
+===Modalità di funzionamento===
+La combinazione di valori CM e CIS seleziona la modalità di funzionamento dei modulo comparatore.
+{|
+|-
+! CM !! CIS=X !! CIS=0 !! CIS=1
+|-
+| 000 || Reset comparatore <immagine id=14772 name='ComparatorModule_CM_000_CIS_X.png'>000X</immagine> ||  || 
+|-
+| 111 || Comparatore disabilitato, i pin sono ingressi/uscite digitali <immagine id=14773 name='ComparatorModule_CM_111_CIS_X.png'>111X</immagine> ||  || 
+|-
+| 100 || Due comparatori indipendenti<immagine id=14774 name='ComparatorModule_CM_100_CIS_X.png'>100X</immagine> ||  || 
+|-
+| 010 || 4 ingressi condivisi su 2 comparatori e VRef in comune || <immagine id=14775 name='ComparatorModule_CM_010_CIS_0.png'>0100</immagine> || <immagine id=14776 name='ComparatorModule_CM_010_CIS_1.png'>0101</immagine>
+|-
+| 011 || Due comparatori con un ingresso in comune <immagine id=14779 name='ComparatorModule_CM_011_CIS_X.png'>011X</immagine> ||  || 
+|-
+| 110 || Due comparatori con un ingresso in comune e valori su pin out <immagine id=14778 name='ComparatorModule_CM_110_CIS_X.png'>110X</immagine> ||  || 
+|-
+| 101 || Un singolo comparatore e 2 pib digitali liberi <immagine id=14780 name='ComparatorModule_CM_101_CIS_X.png'>101X</immagine> ||  || 
+|-
+| 001 || Tre ingressi condivisi su due comparatori con un ingresso in comune || <immagine id=14781 name='ComparatorModule_CM_001_CIS_0.png'>0010</immagine> || <immagine id=14782 name='ComparatorModule_CM_001_CIS_1.png'>0011</immagine>
+|}
+
+===Interrupt===
+Se l'interrupt è abilitato, ogni volta che uno dei comparatori cambia stato viene generato un interrupt.
+I bit dei registri che influenzano gli interrupt del comparatore sono:
+
+* '''GIE''': Global Interrupt Enable. 0 disabilita tutti gli interrupt del PIC, 1 li abilita.
+* '''PEIE''': Periferal Interrupt Enable, è il sesto bit del registro INTCON ( INTCON.PEIE ). 0 disabilita tutti gli interrupt delle periferiche PIC, 1 li abilita.
+* '''CMIE''': Comparator Module Interrup Enable. E' il 6° bit del registro PIE1 ( PIE1.CMIE ). 0 disabilita l' interrupt del comparatore, 1 lo abilita.
+* '''CMIF''': Comparator Module Interrup Flag. E' il 6° bit del registro PIR1 ( PIR1.CMIF ). 0 non c'è stato interrupt, 1 c'è stato interrupt. La routine di interrupt deve riportare questo flag a 0 altrimenti non potranno scattare altri interrupt dal comparatore.
+
+Lo schema logico dei bit e flag di interrupt è rappresentato nella figura 14-14 del datasheet, dove ho evidenziato quelli coinvolti nel modulo comparatore:
+<immagine id=14799 name='Interrupt-PIC.png'>Interrupt-PIC.png</immagine>
+
+Ogni volta che si imposta il registro '''CMCON''' per programmare il comparatore, bisogna disabilitare gli interrupt altrimenti potrebbero scattare per errore.
+Anche il registro '''TRISA''' è coinvolto nel funzionamento del comparatore, perchè i pin da 0 a 4 della PORTA vanno impostati correttamente come input o aoutput.
+
+==Il Voltage Reference Module==
+
+Il Voltage refence module, è costituito da una rete di 16 resistenze. E' un vero e proprio DAC interno a 4 bit fatto per ottenere una tensione di riferimento secondo due modalità di funzionamento.
+<immagine id=14795 name='VR-Mod.png'>VR-Mod.png</immagine>
+Il modulo è controllato dal registro '''VRCON''' che è così composto:
+{|
+|-
+! bit7 !! bit6 !! bit5 !! bit4 !! bit3 !! bit2 !! bit1 !! bit0
+|-
+| VREN || VROE || VRR || - || VR3 || VR2 || VR1 || VR0
+|}
+* VREN: Voltage Reference ENable. 0 disabilita il modulo, 1 lo abilita.
+* VROE: Voltage Reference Output Enable. 1 collega la tensione generata dal modulo su RA2/AN2/VREF, 0 lo scollega.
+* VRR: Imposta la modalità di funzionamento del modulo secondo una delle due disponibili.
+* VR: E' il valore digitale da convertire.
+
+Ci sono altri due registri coinvolti nel funzionamento del modulo:
+* '''CMCON''': Se il modulo VR viene usato con il comparatore, questo va configurato con i bit CMCON.CM=010
+* '''TRISA''': Se il valore Vref viene collegato ad AN2, TRISA.TRISA2 deve essere settato a 0 per impostare AN2 come output.
+
+===Modalità di funzionamento===
+Tramite '''VRR''' si possono selezionare due modalità di conversione:
+* High range: Quando VRR = 0
+:<math>
+V_{Ref}=
+\left( \frac{V_{dd}}{4} \right) + 
+\left( \frac{VR}{32} \right) \times V_{dd}
+</math>
+:<math>
+Se\ V_{dd}=5.0\ \text{V}\ \Rightarrow\ V_{Ref}=1.25\ \text{V}\ \to\ 3.59\ \text{V}
+</math>
+
+* Low range: Quando VRR = 1
+:<math>
+V_{Ref}=
+\left( \frac{VR}{24} \right) \times V_{dd}
+</math>
+:<math>
+Se\ V_{dd}=5.0\ \text{V}\ \Rightarrow\ V_{Ref}=0.0\ \text{V}\ \to\ 3.125\ \text{V}
+</math>
+
+Tramite '''VROE''' si può esportare il valore di Vref sul pin AN2 che però non deve essere in uso al comparatore e deve essere di output.
+
+
+==CM e VR insieme==
+
+La modalità di funzionamento del modulo comparatore è quella relativa a CM=010 che lo collega al modulo voltage reference.
+{| class="wikitable"
+|-
+! 
+In questa modalità, agendo sul valore di voltage reference tramite VR, si possono leggere 2 valori analogici. 
+! Se non si esporta Vref su AN2 (VROE=0), agendo su CIS e quindi spostando gli switch sugli altri due ingressi, si possono leggere 4 valori analogici.
+|-
+| <immagine id=14801 name='CM_VRM.png'>VROE=1</immagine> || <immagine id=14802 name='CM_VRM_001.png'>VROE=0, CIS=0/1</immagine>
+|}
+Principali svantaggi per entrambe le modalità VRR:
+* La risoluzione è di soli 4 bit.
+* Il range di tensioni è limitato, infatti non comprende tutti i livelli tra 0 e 5V, ma cambiando configurazione al modulo comparatore e condizionando con degli operazionali il segnale da misurare o quello generato su AN2 è possibile superare questo limite. 
+Vantaggi:
+* Se la risoluzione non è importante, la conversione è molto veloce perchè bisogna generare solo 16 livelli di tensioni da comparare. Con un clock di <math>20\ \text{MHz}</math>, abbiamo <math>\frac{20\times 10^6}{4}=5\times 10^6</math> cicli macchina al secondo, con cui possiamo generare teoricamente <math>\frac{5\times 10^6}{16}=312500</math> rampe e quindi acquisizioni al secondo.
+:Tutto ciò in via teorica perchè bisogna tenere conto dei cicli macchina necessari alle altre istruzioni che devono essere eseguite dal PIC e del tempo minimo richiesto perchè la tensione Vref impostata divenga stabile in uscita, informazione che non ho trovato nel datasheet.
+
+==Test==
+
+Nella prova che espongo in questo articolo, utilizzo il primo schema, quello con VROE=1 e CIS=0, genero una rampa tramite il modulo VR, lo confronto con il valore di tensione presente sul centrale di un trimmer utilizzato come partitore di tensione, e riporto il valore di uscita di ciascun comparatore su due pin digitali RA6 ed RA7, realizzando una specie di modulo PWM.
+
+Vengono mostrati due esempi, uno per ciascuna modalità di funzionamento del modulo VR cioè con VRR=0 e VRR=1.
+
+===Schema elettrico===
+<immagine id=14784 name='PIC16F628A_Comparator_Module_000.sch.png'>PIC16F628A_Comparator_Module_000.sch.png</immagine>
+* VREF: Da qui possiamo leggere il valore generato dal modulo VR
+* AN0:  Da qui possiamo leggere il valore di tensione presente sul primo partitore.
+* AN1:  Da qui possiamo leggere il valore di tensione presente sul primo partitore.
+* C1VOUT: Valore presente in uscita del primo comparatore.
+* C2VOUT: Valore presente in uscita del secondo comparatore.
+
+Nello schema sono presenti anche due led, che accendendosi mostrano il valore PWM in termini di luminosità, ma sono opzionali.
+
+===Firmware===
+Questo è il listato C del firmare utilizzato nel PIC16F627A compilato con MPLAB.X:
+main.c
+<pre>
+/* 
+ * File:   main.c
+ * Author: Stefano
+ *
+ * Created on 9 settembre 2015, 15.21
+ */
+
+// PIC16F628A Configuration Bit Settings
+
+#include <xc.h>
+#define _XTAL_FREQ  4000000
+
+// CONFIG
+#pragma config FOSC = INTOSCIO  // Oscillator Selection bits (INTOSC oscillator: 
+                                //     I/O function on RA6/OSC2/CLKOUT pin, 
+                                //     I/O function on RA7/OSC1/CLKIN)
+#pragma config WDTE = OFF       // Watchdog Timer Enable bit (WDT disabled)
+#pragma config PWRTE = OFF      // Power-up Timer Enable bit (PWRT disabled)
+#pragma config MCLRE = ON       // RA5/MCLR/VPP Pin Function Select bit (RA5/MCLR/VPP pin function is MCLR)
+#pragma config BOREN = OFF      // Brown-out Detect Enable bit (BOD disabled)
+#pragma config LVP = OFF        // Low-Voltage Programming Enable bit 
+                                //     (RB4/PGM pin has digital I/O function, HV on MCLR must be used for programming)
+#pragma config CPD = OFF        // Data EE Memory Code Protection bit (Data memory code protection off)
+#pragma config CP = OFF         // Flash Program Memory Code Protection bit (Code protection off)
+
+void main(void) {
+    
+    unsigned char v_ref = 0;
+
+    //  -----------------------------------------------------------------------------------------
+    //  Configuro il modulo comparatore:
+    /*
+     * Comparator interrupts should be disabled
+     * during a Comparator mode change,
+     * otherwise a false interrupt may occur.
+     */
+
+    //  Disabilito gli interrupt
+
+    INTCONbits.GIE  = 0;        /*  GIE: Global Interrupt Enable bit
+                                 *      1 = Enables all un-masked interrupts    
+                                 *      0 = Disables all interrupts
+                                 */
+    //  Disabilito gli interrupt relativi alle periferiche
+    INTCONbits.PEIE = 0;        /*  PEIE: Peripheral Interrupt Enable bit 
+                                 *      1 = Enables all un-masked peripheral interrupts
+                                 *      0 = Disables all peripheral interrupts
+                                 */
+
+    //  Disabilito gli interrupt relativi al comparatore
+    PIE1bits.CMIE   = 0;        //  CMIE: Comparator Interrupt Enable bit
+    PIR1bits.CMIF   = 0;        /*  TheCMIF bit, PIR1<6>, is the comparator interrupt flag.
+                                 *  CMIF: Comparator Interrupt Flag bit
+                                 *      1 = Comparator output has changed
+                                 *      0 = Comparator output has not changed
+                                 */
+
+    //  Modalità di funzionamento del modulo comparatore:
+    CMCONbits.CM    = 0b010;    //  CM<2:0> = 010 Four Inputs Multiplexed to Two Comparators
+    CMCONbits.CIS   = 0;        /*  CIS: Comparator Input Switch bit
+                                    When CM<2:0>: = 001
+                                        Then:
+                                            1 = C1 VIN- connects to RA3
+                                            0 = C1 VIN- connects to RA0
+                                    When CM<2:0> = 010
+                                        Then:
+                                            1 = C1 VIN- connects to RA3
+                                                C2 VIN- connects to RA2
+                                            0 = C1 VIN- connects to RA0
+                                                C2 VIN- connects to RA1
+                                 */
+    CMCONbits.C1INV = 0;        /*  C1INV: Comparator 1 Output Inversion bit
+                                        1 = C1 Output inverted
+                                        0 = C1 Output not inverted
+                                 */
+    CMCONbits.C2INV = 0;        /*  C2INV: Comparator 2 Output Inversion bit
+                                        1 = C2 Output inverted
+                                        0 = C2 Output not inverted
+                                 */
+    //  -----------------------------------------------------------------------------------------
+
+    //  -----------------------------------------------------------------------------------------
+    //  Configuro il modulo Voltage reference:
+
+    VRCONbits.VREN  = 0;        /*  0 = VREF circuit powered down, no IDD drain
+                                    1 = VREF circuit powered on
+                                */
+    VRCONbits.VROE  = 1;        /*  0 = VREF is disconnected from RA2 pin
+                                    1 = VREF is output on RA2 pin
+                                */
+    VRCONbits.VRR   = 0;        /*  0 = High range
+                                    1 = Low range
+                                */
+    VRCONbits.VR    = 0;        /*  When VRR = 0: VREF = 1/4 * VDD + (VR<3:0>/ 32) * VDD
+                                    When VRR = 1: VREF = (VR<3:0>/ 24) * VDD
+                                */
+    
+    //  -----------------------------------------------------------------------------------------
+
+    TRISA           = 0b00111111;   //  RA6-RA7 pin di output.
+    PORTA           = 0b00000000;   //  Inizializzo PORTA
+
+    TRISB           = 0b00000000;   //  RA6-RA7 pin di output.
+    PORTB           = 0b00000000;   //  Inizializzo PORTA
+    
+    VRCONbits.VREN  = 1;            //  Attivo il modulo Voltage Reference
+    
+    while(1) {
+
+        for ( v_ref = 0; v_ref < 16; v_ref++ ) {    
+
+            //  Genero una rampa di 16 livelli di VRef
+            VRCONbits.VR  = v_ref;
+
+            //  La VRef è presente sul pin AN2        
+            
+            PORTAbits.RA6 = CMCONbits.C1OUT;    //  Se AN0 > VRef -> RA6=1, altrimenti 0
+            PORTAbits.RA7 = CMCONbits.C2OUT;    //  Se AN1 > VRef -> RA7=1, altrimenti 0
+
+            __delay_us(500);
+        }
+
+    }
+   
+    return;
+}
+
+</pre>
+
+===Misure con l'oscilloscopio===
+* La traccia gialla è VREF
+* La traccia azzurra è C1VOUT
+* La traccia viola è AN0
+
+* '''Modalità VR High range''' ( VR=0 )
+: Si vede che la rampa va da 1.36V a 3.76V ( La VCC è 5.40V )
+:<immagine id=14785 name='File1.png'>File1.png</immagine>
+:<immagine id=14786 name='File2.png'>File2.png</immagine>
+:<immagine id=14787 name='File3.png'>File3.png</immagine>
+:<immagine id=14788 name='File4.png'>File4.png</immagine>
+:<immagine id=14789 name='File5.png'>File5.png</immagine>
+
+
+* '''Modalità VR Low range''' ( VR=1 )
+: Si vede che la rampa va da 0.00V a 3.20V ( La VCC è 5.40V )
+:<immagine id=14790 name='File1.png'>File1.png</immagine>
+:<immagine id=14791 name='File2.png'>File2.png</immagine>
+:<immagine id=14792 name='File3.png'>File3.png</immagine>
+:<immagine id=14793 name='File4.png'>File4.png</immagine>
+:<immagine id=14794 name='File5.png'>File5.png</immagine>
+
+==Note==
+<small>Versione del documento: 1.4</small>
